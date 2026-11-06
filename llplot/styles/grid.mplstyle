@@ -1,0 +1,16 @@
+# Vendored from SciencePlots 2.2.2 (MIT, John Garrett), https://github.com/garrettj403/SciencePlots
+# Add grid lines and turn the legend frame on
+
+# Grid lines
+axes.grid : True
+axes.axisbelow : True
+grid.linestyle : -
+grid.color : k
+grid.alpha : 0.15
+grid.linewidth : 0.5
+
+# Legend
+legend.frameon : True
+legend.framealpha : 1.0
+legend.fancybox : True
+legend.numpoints : 1

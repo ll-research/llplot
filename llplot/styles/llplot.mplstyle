@@ -1,0 +1,12 @@
+# llplot layer on top of SciencePlots (science + no-latex): only what the base does not provide.
+# Colour order is validated colour-blind-safe on white (adjacent CVD dE >= 9.1). Slots 3-5 are below 3:1
+# contrast, so every series also gets a marker shape; for scatter plots use at most 3 categories.
+
+axes.prop_cycle: cycler('color', ['2a78d6', 'eb6834', '1baf7a', 'eda100', 'e87ba4', '008300', '6250d6', 'e34948']) + cycler('marker', ['o', 's', 'D', '^', 'v', 'P', 'X', '*'])
+lines.markersize: 3.5
+lines.markeredgewidth: 0
+errorbar.capsize: 2
+savefig.dpi: 200
+savefig.facecolor: white
+figure.facecolor: white
+image.interpolation: nearest
